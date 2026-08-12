@@ -9736,21 +9736,25 @@ div.chart {
 .universal-wrapper h1 {
   text-align: center; }
 
-/* People page only: use face-focused crop for Lei Zheng.
-   Author page (/author/lei-zheng/) keeps the full graduation photo. */
-.people-widget a[href="/author/lei-zheng/"] {
-  display: inline-block;
+/* People page: zack.jpg portrait for Lei Zheng at ~1.8× face zoom.
+   Author page uses avatar.png = zack_full.
+   Scope to the avatar link only — not the name link under .portrait-title. */
+.people-widget .people-person > a[href="/author/lei-zheng/"] {
+  display: block;
   width: 150px;
   height: 150px;
+  margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
-  background: url("/media/lei-zheng-people.png") center/cover no-repeat; }
+  line-height: 0;
+  background: url("/media/lei-zheng-people.png") 48% 22%/180% no-repeat; }
 
-.people-widget a[href="/author/lei-zheng/"] img.avatar {
+.people-widget .people-person > a[href="/author/lei-zheng/"] img.avatar {
   opacity: 0;
-  width: 150px !important;
-  height: 150px !important;
-  max-width: none !important; }
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  margin: 0 !important; }
 
 .cta-group {
   justify-content: center; }
