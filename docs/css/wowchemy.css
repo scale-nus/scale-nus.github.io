@@ -9736,6 +9736,22 @@ div.chart {
 .universal-wrapper h1 {
   text-align: center; }
 
+/* People page only: use face-focused crop for Lei Zheng.
+   Author page (/author/lei-zheng/) keeps the full graduation photo. */
+.people-widget a[href="/author/lei-zheng/"] {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url("/media/lei-zheng-people.png") center/cover no-repeat; }
+
+.people-widget a[href="/author/lei-zheng/"] img.avatar {
+  opacity: 0;
+  width: 150px !important;
+  height: 150px !important;
+  max-width: none !important; }
+
 .cta-group {
   justify-content: center; }
 
@@ -9796,7 +9812,7 @@ div.chart {
 
 .research-card--safe {
   background: linear-gradient(160deg, #fgede8 0%, #f8d8cc 100%);
-  border-color: #e8a895;
+  border-color: transparent;
   color: #5a2618; }
 
 /* Research highlights page (Jun Ma–style theme + works) */
