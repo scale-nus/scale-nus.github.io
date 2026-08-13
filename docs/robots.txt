@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://scale-nus.github.io/sitemap.xml
