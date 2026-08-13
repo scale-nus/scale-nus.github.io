@@ -9759,6 +9759,84 @@ div.chart {
 .cta-group {
   justify-content: center; }
 
+/* ---- Homepage hero ---- */
+.wg-hero {
+  padding: 2.25rem 0 2.5rem; }
+
+.wg-hero .hero-title {
+  font-size: 2.35rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.35rem;
+  color: #16324f; }
+
+.wg-hero .hero-lead {
+  font-size: 1.05rem;
+  max-width: none; }
+
+.wg-hero .hero-identity {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #16324f;
+  line-height: 1.35; }
+
+.wg-hero .hero-affiliation {
+  margin: 0 0 1.15rem;
+  font-size: 0.95rem;
+  color: #5f6b7a;
+  line-height: 1.45; }
+
+.wg-hero .hero-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.15rem 0 0; }
+
+.wg-hero .hero-cta {
+  display: inline-block;
+  background: #0984e3;
+  color: #fff !important;
+  border: 1px solid #0984e3;
+  padding: 0.45rem 0.95rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  line-height: 1.3; }
+
+.wg-hero .hero-cta:hover {
+  background: #74b9ff;
+  border-color: #74b9ff;
+  color: #fff !important; }
+
+.wg-hero .hero-cta--ghost {
+  background: #fff;
+  color: #0984e3 !important; }
+
+.wg-hero .hero-cta--ghost:hover {
+  background: #0984e3;
+  color: #fff !important; }
+
+@media (min-width: 768px) {
+  .wg-hero .row {
+    align-items: center; }
+  .wg-hero .row > .col-md-6:first-child {
+    flex: 0 0 56%;
+    max-width: 56%;
+    text-align: left !important; }
+  .wg-hero .hero-media {
+    flex: 0 0 44%;
+    max-width: 44%;
+    padding-left: 0.75rem; } }
+
+.wg-hero .hero-media img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(20, 40, 70, 0.12);
+  object-fit: cover; }
+
 /* ---- SCLABLE research area cards ---- */
 .research-grid {
   display: grid;
