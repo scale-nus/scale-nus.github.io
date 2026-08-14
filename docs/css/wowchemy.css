@@ -9821,17 +9821,16 @@ div.chart {
   .wg-hero .row {
     align-items: center; }
   .wg-hero .row > .col-md-6:first-child {
-    flex: 0 0 56%;
-    max-width: 56%;
+    flex: 0 0 52%;
+    max-width: 52%;
     text-align: left !important; }
   .wg-hero .hero-media {
-    flex: 0 0 44%;
-    max-width: 44%;
-    padding-left: 0.75rem; } }
+    flex: 0 0 48%;
+    max-width: 48%;
+    padding-left: 0.5rem; } }
 
 .wg-hero .hero-media img {
   width: 100%;
-  max-width: 420px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 10px 28px rgba(20, 40, 70, 0.12);
